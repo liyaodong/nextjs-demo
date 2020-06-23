@@ -4,9 +4,9 @@
 
 Default: [nextjs.liyaodong.com](http://nextjs.liyaodong.com)
 
-Dark: [dark.nextjs.liyaodong.com](http://dark.nextjs.liyaodong.com)
+Dark: [darknextjs.liyaodong.com](http://darknextjs.liyaodong.com)
 
-Red: [red.nextjs.liyaodong.com](http://red.nextjs.liyaodong.com)
+Red: [rednextjs.liyaodong.com](http://rednextjs.liyaodong.com)
 
 ## How to customize
 Refer to `pages/index.tsx` #getThemeFromHostName function
