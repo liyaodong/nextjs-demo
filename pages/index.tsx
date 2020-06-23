@@ -11,11 +11,11 @@ const { Header, Content, Sider } = Layout;
 
 interface IndexPageProps {}
 interface IndexPageState {
-  theme: 'default' | 'dark';
+  theme: 'default' | 'dark' | { [key: string]: string };
 }
 
-function getThemeFromHostName(context) {
-  let theme = 'default';
+function getThemeFromHostName() {
+  let theme: IndexPageState['theme'] = 'default';
 
   // only run on client side
   if (!process.browser) {
