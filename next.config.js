@@ -8,7 +8,7 @@ const cssLoaderGetLocalIdent = require('css-loader/lib/getLocalIdent.js');
 const withCss = require('@zeit/next-css');
 
 const prod = process.env.NODE_ENV === 'production';
-const prefix = '/';
+const prefix = prod ? '' : '/';
 
 const withAntdTheme = generateTheme({
   antDir: path.join(__dirname, './node_modules/antd'),
