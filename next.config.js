@@ -8,7 +8,7 @@ const cssLoaderGetLocalIdent = require('css-loader/lib/getLocalIdent.js');
 const withCss = require('@zeit/next-css');
 
 const prod = process.env.NODE_ENV === 'production';
-const prefix = prod ? '/next-dynamic-antd-theme/' : '/';
+const prefix = '/';
 
 const withAntdTheme = generateTheme({
   antDir: path.join(__dirname, './node_modules/antd'),
