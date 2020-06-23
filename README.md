@@ -35,3 +35,5 @@ function getThemeFromHostName(context) {
 
 ## Major plugin used
 [next-dynamic-antd-theme](https://github.com/OhYee/next-dynamic-antd-theme)
+
+[//]: <> (Force trigger deploy)
